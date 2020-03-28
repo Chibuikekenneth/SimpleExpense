@@ -13,6 +13,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using SimpleExpense.Models;
+using SimpleExpense.Services;
 
 namespace SimpleExpense
 {
@@ -32,6 +33,8 @@ namespace SimpleExpense
                 options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
                 
             services.AddControllers();
+
+            services.AddScoped<IExpenseService, ExpenseService>();
 
             services.AddSwaggerGen(c => 
             {
