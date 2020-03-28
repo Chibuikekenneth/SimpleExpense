@@ -19,7 +19,9 @@
     dotnet restore 
 
 5. Run .Net Core project:
-    F5 from either [Visual Studio IDE](https://www.visualstudio.com/) OR [VScode] (https://code.visualstudio.com/):
+    F5 from either [Visual Studio IDE](https://www.visualstudio.com/) 
+    OR 
+    (dotnet run) on [VScode] (https://code.visualstudio.com/):
 
 
 * Run with Sqlite: (Already configured to quickly run the project)
