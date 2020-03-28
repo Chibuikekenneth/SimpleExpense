@@ -1,5 +1,5 @@
 
-## Simple Expense Api
+### Simple Expense API
 
 #### Pre-requisites
 
